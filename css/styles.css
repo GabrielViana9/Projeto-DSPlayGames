@@ -30,6 +30,8 @@ header {
     display: flex;
     align-items: center;
     height: 90px;
+    width: 100%;
+    position: fixed;
   }
 
 nav {
@@ -49,9 +51,15 @@ nav h1 {
     font-weight: 700;
   }
 
-  hr {
+hr {
       border: 1px solid var(--color-green);
   }
+
+span {
+    color: var(--color-green);
+    font-size: 14px;
+    font-weight: 700;
+}
 
 /* Class e IDs */
 
@@ -99,6 +107,7 @@ nav h1 {
 .container-news h1 {
       margin: 40px 0 40px 0;
       font-size: 36px;
+      margin-top: 130px;
   }
 
 .area-news p {
@@ -123,4 +132,72 @@ nav h1 {
 .date {
     color: var(--color-green);
     margin-bottom: 16px;
+}
+
+.botton-load-more {
+    background-color: var(--color-light-pink);
+    color: var(--color-white);
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 20px 55px 20px 55px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.container-games {
+    background-color: var(--color-light-gray);
+    width: 100%;
+    height: 559px;
+}
+
+.title-games h1 {
+    background-color: var(--color-light-gray);
+    color: var(--color-green);
+    font-size: 36px;
+    text-align: center;
+    padding: 36px 0 73px 0;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.area-games {
+    display: flex;
+    background-color: var(--color-white);
+    max-width: 300px;
+    width: 100%;
+    height: 326px;
+    color: var(--color-gray);
+    cursor: pointer;
+    margin-left: 30px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.area-games p {
+    font-size: 12px;
+}
+
+.area-games img {
+    height: 168px;
+    border-radius: 8px 8px 0 0;
+}
+
+
+.area-games h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 27px;
+}
+
+.area-games h2 {
+    color: var(--color-green);
+    padding: 13px 0px 15px 0px;
 }
