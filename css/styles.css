@@ -65,6 +65,11 @@ footer {
     background-color: var(--color-dark-gray);
     color: var(--color-light-gray);
     height: 190px;
+    width: 100%;
+    padding: 74px 105px 74px 105px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
 }
 
 /* Class e IDs */
@@ -356,4 +361,15 @@ footer {
     border: 2px solid var(--color-light-pink);
     border-radius: 8px;
     margin-left: 26px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-term {
+    display: flex;
+    text-align: center;
 }
