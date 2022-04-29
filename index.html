@@ -23,9 +23,9 @@
 
     <main>
 
-       <section class="container-news">
+       <section id="noticias" class="container-news">
            <div> 
-             <h1 id="noticias">Últimas notícias</h1> 
+             <h1>Últimas notícias</h1> 
            </div>   
 
            <div class="area-news">
@@ -85,44 +85,61 @@
             </div>
        </section>
 
-       <section id="inscricao">
-            <div>
-                <h1>Faça sua Inscrição</h1>
-            </div>
+       <section id="inscricao" class="form-section">
 
-            <div>
-                <form action="inscricao.html">
-                    
-                    <div>
-                        <input type="text" name="name" placeholder="Nome completo">
-                    </div>
+            <div class="container-form">
 
-                    <div>
-                        <input type="text" name="email" placeholder="Email">
-                    </div>
+                <div class="title-form">
+                    <h1>Faça sua Inscrição</h1>
+                </div>
 
-                    <div>
-                        <label for="ctrl-level">Qual sua plataforma preferida?</label>
-                        <div id="ctrl-level">
-                            <input type="radio" name="PC" id="ctrl-level-1">
-                            <label for="ctrl-level-1">PC</label>
-                            <input type="radio" name="Xbox" id="ctrl-level-2">
-                            <label for="ctrl-level-2">Xbox</label>
-                            <input type="radio" name="Playstation" id="ctrl-level-3">
-                            <label for="ctrl-level-3">Playstation</label>
+                <div class="form-descripition">
+
+                    <form action="inscricao.html"  class="area-form">
+
+                        <div class="ds-form-group-one">
+                            <input type="text" name="name" placeholder="Nome Completo">
                         </div>
-                    </div>
+                    
+                        <div class="ds-form-group-two">
+                            <input type="text" name="email" placeholder="Email">
+                        </div>
 
-                    <div>
-                        <input type="checkbox" name="Novidades" id="news">
-                        <label for="news">Desejo receber novidades.</label>
-                    </div>
+                        <div class="form-radios">
+                            <label for="ctrl-level">Qual sua plataforma preferida?</label>
+                            <div id="ctrl-level" class="boxings">
+                                <div class="inputs-plataform">
+                                    <input type="radio" name="level" id="ctrl-level-1">
+                                    <label for="ctrl-level-1">PC</label>
+                                </div>
+                                <div class="inputs-plataform">
+                                    <input type="radio" name="level" id="ctrl-level-2">
+                                    <label for="ctrl-level-2">Xbox</label>
+                                </div>
+                                <div class="inputs-plataform">
+                                    <input type="radio" name="level" id="ctrl-level-3">
+                                    <label for="ctrl-level-3">Playstation</label>
+                                </div>
+                            </div>
+                        </div>
 
-                    <input type="submit" value="submit">
-                    <input type="reset" value="Limpar">
+                        <div class="news-container">
+                            <div class="inputs-plataform">
+                            <input type="checkbox" name="Novidades">
+                            <label for="news">Desejo receber novidades.</label>
+                            </div>
+                        </div>
 
-                </form>
-            </div>    
+                        <div class="bottons-container">
+
+                            <button type="submit" value="submit" class="botton-one">Enviar</button>
+                            <button type="reset" value="Limpar" class="botton-two">Limpar</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>    
        </section>
     </main>
 

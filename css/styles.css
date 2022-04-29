@@ -61,8 +61,13 @@ span {
     font-weight: 700;
 }
 
-/* Class e IDs */
+footer {
+    background-color: var(--color-dark-gray);
+    color: var(--color-light-gray);
+    height: 190px;
+}
 
+/* Class e IDs */
 
 .area-nav {
     display: flex;
@@ -200,4 +205,155 @@ span {
 .area-games h2 {
     color: var(--color-green);
     padding: 13px 0px 15px 0px;
+}
+
+.form-section {
+    background-color: var(--color-white);
+    color: var(--color-gray);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 716px;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 790px;
+    width: 100%;
+    height: 522px;
+}
+
+.form-descripition {
+    background-color: var(--color-light-gray);
+    border-radius: 8px;
+    width: 100%;
+    height: 522px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-form h1 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ds-form-group-one {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ds-form-group-two {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ds-form-group-one input {
+    width: 642px;
+    max-width: 642px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 50px 75px 10px 75px;
+    border: 1px solid var(--color-gray);
+}
+
+.ds-form-group-two input {
+    max-width: 642px;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 10px 0 20px 0;
+    border: 1px solid var(--color-gray);
+}
+
+.ds-form-group-one input::placeholder {
+    color: #C4C4C4;
+    font-size: 16px;
+    padding: 13px 0px 13px 22px;
+}
+
+.ds-form-group-two input::placeholder {
+    color: #C4C4C4;
+    font-size: 16px;
+    padding: 13px 0px 13px 22px;
+}
+
+.form-radios {
+    color: var(--color-gray);
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin-left: 72px;
+}
+
+.inputs-plataform {
+    justify-content: flex-start;
+    display: flex;
+}
+
+.inputs-plataform input {
+    margin-right: 7px;
+}
+
+.form-radios label {
+    margin-bottom: 8px;
+}
+
+.boxings {
+    align-items: center;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.boxings input  {
+    width: 23px;
+    height: 23px;
+}
+
+.news-container {
+    margin-left: 72px;
+    margin-bottom: 30px;
+}
+
+.news-container input {
+    width: 23px;
+    height: 23px;
+}
+
+.bottons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 38px 125px 50px 125px;
+}
+
+.botton-one {
+    background-color: var(--color-light-pink);
+    color: var(--color-white);
+    cursor: pointer;
+    width: 244px;
+    height: 67px;
+    border: 2px solid var(--color-light-pink);
+    border-radius: 8px;
+    margin-right: 26px;
+}
+
+.botton-two {
+    background-color: var(--color-white);
+    color: var(--color-light-pink);
+    cursor: pointer;
+    width: 244px;
+    height: 67px;
+    border: 2px solid var(--color-light-pink);
+    border-radius: 8px;
+    margin-left: 26px;
 }
